@@ -1,0 +1,39 @@
+
+ul {
+    
+    padding-left: 0;
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+img{
+
+   width: 350px; 
+   height: 200px;
+   font-style: normal;
+}
+
+
+.gallery{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding: 20px;
+}
+
+.login-form{
+  display: block;
+}
+
+.list_nav{
+  margin: 30px;
+  font-size: 25px;
+  color: black;
+}
+.nav_list{
+  padding-bottom: 10px;
+  list-style: none;
+}
