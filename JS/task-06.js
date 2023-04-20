@@ -1,7 +1,9 @@
 const inputText = document.getElementById('validation-input');
 inputText.addEventListener('blur', addBorderColor);
 const dataLength = inputText.getAttribute('data-length');
+
 function addBorderColor(event) {
+    
     const valueLength = event.target.value.trim().length;
     if (Number(dataLength) === valueLength) {
         inputText.classList.add('valid');
@@ -11,7 +13,7 @@ function addBorderColor(event) {
         inputText.classList.add('invalid');
         inputText.classList.remove('valid');
     }
+    
 };
 
 
-liEl.classList.add('item')
