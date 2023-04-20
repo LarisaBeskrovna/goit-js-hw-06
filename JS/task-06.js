@@ -12,3 +12,6 @@ function addBorderColor(event) {
         inputText.classList.remove('valid');
     }
 };
+
+
+liEl.classList.add('item')

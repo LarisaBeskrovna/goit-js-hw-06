@@ -20,7 +20,7 @@ const images = [
     .map(image => `<li class="item"><img src=${image.url} alt="${image.alt}"></img> </li>`)
     .join('');
     list.insertAdjacentHTML('beforeend', liEl);
-    const pictures = document.querySelectorAll('.item');
+    
 
 
 

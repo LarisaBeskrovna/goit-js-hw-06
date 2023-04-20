@@ -5,9 +5,9 @@ console.log(`Number of categories: ${categoriesItems.length}`)
 
 categoriesItems.forEach(item => {
     const links = item.lastElementChild.children.length;
-    const title = item.firstElementChild;
+    const title = item.firstElementChild.textContent;
     
     
-        console.log(`Category: ${title.textContent}\n Elements: ${links}`);
+        console.log(`Category: ${title}\n Elements: ${links}`);
 });
 
